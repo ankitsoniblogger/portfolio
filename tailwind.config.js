@@ -10,7 +10,7 @@ export default {
       Primary: "#262729",
       Secondary: "#F6F6F6",
       Text: "#54575D",
-      Accent: "#54575D",
+      Accent: "#D3CAFF",
       white: "#FFFFFF",
       TPurple: "#785CFF45",
       TBg: "#F6F6F650",
