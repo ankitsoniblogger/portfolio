@@ -17,15 +17,28 @@ const Hero = () => {
           Front-End Developer
         </h1>
       </div>
-      <div>
-        <div>
+      <div className="mt-10 ">
+        <div className="flex items-center gap-10">
           <div className="flex flex-col items-center">
-            <h1 className="text-6xl text-Primary font-medium">
+            <h1 className="flex text-6xl text-Primary font-medium">
               {" "}
               <span className="text-3xl">#</span> 983{" "}
               <span className="text-3xl">K</span>
             </h1>
             <p className="text-Primary font-semibold ">Successful Project</p>
+          </div>
+          <div className="border-b w-24 rotate-90"> </div>
+          <div className="w-3/4">
+            <p className="text-Text text-lg">
+              I am a{" "}
+              <strong>
+                Professional Digital Designer and Front-End Developer.
+              </strong>{" "}
+              This website contains design works that I have produced over the
+              past few years. Find various types of design projects such as logo
+              designs, brochure designs, product packaging designs, website
+              designs, and many more.
+            </p>
           </div>
         </div>
       </div>
