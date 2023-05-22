@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="pt-[140px] pb-[140px] ">
+    <div className="pt-[140px] pb-[140px] px-72">
       <div className="flex flex-col justify-center">
         <h1 className="xl:text-[125px] lg:text-[90px] md:text-[70px] text-[48px] leading-tight font-medium text-Primary tracking-tight">
           Digital Designer{" "}
@@ -19,7 +19,7 @@ const Hero = () => {
       </div>
       <div>
         <div>
-          <div className="w-[20%] flex flex-col items-center">
+          <div className="flex flex-col items-center">
             <h1 className="text-6xl text-Primary font-medium">
               {" "}
               <span className="text-3xl">#</span> 983{" "}
@@ -27,7 +27,6 @@ const Hero = () => {
             </h1>
             <p className="text-Primary font-semibold ">Successful Project</p>
           </div>
-          <div className=""> </div>
         </div>
       </div>
     </div>
